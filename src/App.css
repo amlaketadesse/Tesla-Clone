@@ -26,6 +26,8 @@
   color: rgb(112, 76, 182);
 }
 
+
+
 @keyframes App-logo-float {
   0% {
     transform: translateY(0);
@@ -36,4 +38,17 @@
   100% {
     transform: translateY(0px);
   }
+}
+
+@font-face {
+  font-family: gotham;
+  src: url(./Gotham\ Book\ Font.otf)
+}
+
+.gotham {
+  font-family: gotham;
+}
+
+* {
+  font-family: gotham !important;
 }
